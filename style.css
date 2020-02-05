@@ -4,8 +4,6 @@ body{
 
 .header-text{
     color: white;
-    width: 100vw;
-    height: 100vh;
 }
 
 #logo{
@@ -13,7 +11,7 @@ body{
     transition : 0.25s;
 }
 
-.master-header{
+.main-content{
     background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -32,8 +30,6 @@ body{
     transition-duration: 0.25s;
 }
 
-.secret-text{
-    color: white;
-    padding-top: 250px;
-    padding-left: 5%;
+.social-media-icon{
+    width:26px;
 }
