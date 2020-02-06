@@ -42,4 +42,23 @@ function resizeFunction(){
         document.getElementById("text-4").classList.remove("h4");
         document.getElementById("text-4").classList.add("h5");
     }
+    if (window.innerWidth >= 768){
+        document.getElementById("github").src = "github-32.png";
+        document.getElementById("facebook").src = "facebook-32.png";
+        document.getElementById("instagram").src = "instagram-32.png";
+        document.getElementById("logo").style.fontSize ="32px";
+        if (!document.getElementById("logo").classList.contains("pt-2")){
+            if (document.getElementById("logo").classList.contains("pt-3"))
+                document.getElementById("logo").classList.remove("pt-3");
+            document.getElementById("logo").classList.add("pt-2");
+        }
+    }
+    else{
+        document.getElementById("github").src = "github-16.png";
+        document.getElementById("facebook").src = "facebook-16.png";
+        document.getElementById("instagram").src = "instagram-16.png";
+        document.getElementById("logo").style.fontSize ="24px";
+        if (document.getElementById("logo").classList.contains("pt-2"))
+            document.getElementById("logo").classList.remove("pt-2"); 
+    }
 }
