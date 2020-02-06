@@ -4,6 +4,7 @@ body{
 
 .header-text{
     color: white;
+    transition: 0.25s;
 }
 
 #logo{
@@ -28,8 +29,4 @@ body{
 #navbar-main{
     transition-property: background-color;
     transition-duration: 0.25s;
-}
-
-.social-media-icon{
-    width:26px;
 }
