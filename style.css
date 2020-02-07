@@ -3,17 +3,17 @@ body{
 }
 
 .header-text{
-    color: white;
+    color: black;
     transition: 0.25s;
 }
 
 #logo{
-    font-size : 32px;
-    transition : 0.25s;
+    font-size : 20px;
+    transition: 0.25s;
 }
 
 .main-content{
-    background-image: url("background.jpg");
+    background-image: url("background-4.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -29,4 +29,252 @@ body{
 #navbar-main{
     transition-property: background-color;
     transition-duration: 0.25s;
+}
+
+.social-media-icon{
+    width: 20px;
+    transition-duration: 0.25s;
+    transition-property: all;
+}
+
+#text-1{
+    font-size: 46px;
+}
+
+#text-2{
+    font-size: 24px;
+}
+
+#text-3{
+    font-size: 12px;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+#text-4{
+    font-size: 24px;
+}
+
+.w-custom{
+    width: 50%!important;
+}
+
+@media only screen and (min-width: 270px){
+
+    #text-1{
+        font-size: 36px;
+    }
+
+    #text-2{
+        font-size: 19px;
+    }
+
+    #text-3{
+        font-size: 10px;
+    }
+
+    #text-4{
+        font-size: 19px;
+    }
+
+
+    #logo{
+        font-size: 16px;
+    }
+
+    .social-media-icon{
+        width: 16px;
+    }
+
+    .w-custom{
+        width: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 380px){
+
+    #text-1{
+        font-size: 40px;
+    }
+
+    #text-2{
+        font-size: 21px;
+    }
+
+    #text-3{
+        font-size: 11px;
+    }
+
+    #text-4{
+        font-size: 21px;
+    }
+
+
+    #logo{
+        font-size: 18px;
+    }
+
+    .social-media-icon{
+        width: 18px;
+    }
+
+    .w-custom{
+        width: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 490px){
+
+    #text-1{
+        font-size: 44px;
+    }
+
+    #text-2{
+        font-size: 23px;
+    }
+
+    #text-3{
+        font-size: 12px;
+    }
+
+    #text-4{
+        font-size: 23px;
+    }
+
+
+    #logo{
+        font-size: 20px;
+    }
+
+    .social-media-icon{
+        width: 20px;
+    }
+
+    .w-custom{
+        width: 90%!important;
+    }
+}
+
+@media only screen and (min-width: 576px){
+
+    #text-1{
+        font-size: 48px;
+    }
+
+    #text-2{
+        font-size: 26px;
+    }
+
+    #text-3{
+        font-size: 14px;
+    }
+
+    #text-4{
+        font-size: 26px;
+    }
+
+
+    #logo{
+        font-size: 22px;
+    }
+
+    .social-media-icon{
+        width: 22px;
+    }
+
+    .w-custom{
+        width: 80%!important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+    #text-1{
+        font-size: 50px;
+    }
+
+    #text-2{
+        font-size: 28px;
+    }
+
+    #text-3{
+        font-size: 16px;
+    }
+
+    #text-4{
+        font-size: 28px;
+    }
+
+    #logo{
+        font-size: 24px;
+    }
+
+    .social-media-icon{
+        width: 24px;
+    }
+
+    .w-custom{
+        width: 70%!important;
+    }
+}
+
+@media only screen and (min-width: 992px){
+
+    #text-1{
+        font-size: 52px;
+    }
+
+    #text-2{
+        font-size: 30px;
+    }
+
+    #text-3{
+        font-size: 18px;
+    }
+
+    #text-4{
+        font-size: 30px;
+    }
+
+    #logo{
+        font-size: 28px;
+    }
+
+    .social-media-icon{
+        width: 28px;
+    }
+
+    .w-custom{
+        width: 60%!important;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    #text-1{
+        font-size: 54px;
+    }
+
+    #text-2{
+        font-size: 32px;
+    }
+
+    #text-3{
+        font-size: 20px;
+    }
+
+    #text-4{
+        font-size: 32px;
+    }
+
+    #logo{
+        font-size: 32px;
+    }
+
+    .social-media-icon{
+        width: 32px;
+    }
+
+    .w-custom{
+        width: 50%!important;
+    }
 }
