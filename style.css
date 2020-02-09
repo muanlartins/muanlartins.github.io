@@ -1,5 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+.footer-social-media-icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    background-color: black;
+}
+
+.footer-social-media-icon span{
+    position: absolute;
+    transition: transform 0.5s;
+}
+
+.footer-social-media-icon span:nth-child(1){
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+}
+
+.footer-social-media-icon:hover span:nth-child(1){
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.footer-social-media-icon span:nth-child(2){
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    transform-origin: right;
+}
+
+.footer-social-media-icon:hover span:nth-child(2){
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+.footer-social-media-icon span:nth-child(3){
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+}
+
+.footer-social-media-icon:hover span:nth-child(3){
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.footer-social-media-icon span:nth-child(4){
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    transform-origin: top;
+}
+
+.footer-social-media-icon:hover span:nth-child(4){
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.5s;
 }
 
 .header-text{
@@ -8,7 +87,7 @@ body{
 }
 
 #logo{
-    font-size : 20px;
+    font-size : 16px;
     transition: 0.25s;
 }
 
@@ -18,12 +97,18 @@ body{
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
+.main-footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
 .navbar-background{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 #navbar-main{
@@ -32,65 +117,42 @@ body{
 }
 
 .social-media-icon{
-    width: 20px;
+    width: 16px;
     transition-duration: 0.25s;
     transition-property: all;
 }
 
 #text-1{
-    font-size: 46px;
+    font-size: 36px;
 }
 
 #text-2{
-    font-size: 24px;
+    font-size: 19px;
 }
 
 #text-3{
-    font-size: 12px;
+    font-size: 10px;
     color: rgb(0, 0, 0, 0.6);
 }
 
 #text-4{
-    font-size: 24px;
+    font-size: 19px;
 }
 
 .w-custom{
-    width: 50%!important;
-}
-
-@media only screen and (min-width: 270px){
-
-    #text-1{
-        font-size: 36px;
-    }
-
-    #text-2{
-        font-size: 19px;
-    }
-
-    #text-3{
-        font-size: 10px;
-    }
-
-    #text-4{
-        font-size: 19px;
-    }
-
-
-    #logo{
-        font-size: 16px;
-    }
-
-    .social-media-icon{
-        width: 16px;
-    }
-
-    .w-custom{
-        width: 100%!important;
-    }
+    width: 100%!important;
 }
 
 @media only screen and (min-width: 380px){
+
+    .footer-social-media-icon{
+        width: 42px;
+        height: 42px;
+    }
+
+    .main-footer{
+        height: 90px;
+    }
 
     #text-1{
         font-size: 40px;
@@ -124,6 +186,15 @@ body{
 
 @media only screen and (min-width: 490px){
 
+    .footer-social-media-icon{
+        width: 44px;
+        height: 44px;
+    }
+
+    .main-footer{
+        height: 100px;
+    }
+
     #text-1{
         font-size: 44px;
     }
@@ -155,6 +226,15 @@ body{
 }
 
 @media only screen and (min-width: 576px){
+
+    .footer-social-media-icon{
+        width: 48px;
+        height: 48px;
+    }
+
+    .main-footer{
+        height: 120px;
+    }
 
     #text-1{
         font-size: 48px;
@@ -188,6 +268,15 @@ body{
 
 @media only screen and (min-width: 768px){
 
+    .footer-social-media-icon{
+        width: 52px;
+        height: 52px;
+    }
+
+    .main-footer{
+        height: 150px;
+    }
+
     #text-1{
         font-size: 50px;
     }
@@ -219,6 +308,15 @@ body{
 
 @media only screen and (min-width: 992px){
 
+    .footer-social-media-icon{
+        width: 56px;
+        height: 56px;
+    }
+
+    .main-footer{
+        height: 180px;
+    }
+
     #text-1{
         font-size: 52px;
     }
@@ -249,6 +347,15 @@ body{
 }
 
 @media only screen and (min-width: 1200px){
+
+    .footer-social-media-icon{
+        width: 60px;
+        height: 60px;
+    }
+
+    .main-footer{
+        height: 230px;
+    }
 
     #text-1{
         font-size: 54px;
