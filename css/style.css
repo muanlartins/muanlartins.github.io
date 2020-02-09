@@ -10,6 +10,7 @@ body{
 
 .copyright{
     color: rgba(211, 211, 211, 0.3);
+    font-size: 4px;
 }
 
 div .secret-text{
@@ -27,8 +28,8 @@ div:hover .secret-text{
 }
 
 .footer-selfdescription-image{
-    width: 100px;
-    border-radius: 50px;
+    width: 30px;
+    border-radius: 15px;
 }
 
 .footer-social-media-icon{
@@ -147,6 +148,10 @@ div:hover .secret-text{
     transition-property: all;
 }
 
+.secret-text{
+    font-size: 4px;
+}
+
 #text-1{
     font-size: 36px;
 }
@@ -170,6 +175,15 @@ div:hover .secret-text{
 
 @media only screen and (min-width: 380px){
 
+    .copyright{
+        font-size: 6px;
+    }
+
+    .footer-selfdescription-image{
+        width: 35px;
+        border-radius: 17.5px;
+    }
+
     .footer-social-media-icon{
         width: 42px;
         height: 42px;
@@ -177,6 +191,10 @@ div:hover .secret-text{
 
     .main-footer{
         height: 90px;
+    }
+
+    .secret-text{
+        font-size: 6px;
     }
 
     #text-1{
@@ -211,9 +229,22 @@ div:hover .secret-text{
 
 @media only screen and (min-width: 490px){
 
+    .copyright{
+        font-size: 8px;
+    }
+
+    .footer-selfdescription-image{
+        width: 40px;
+        border-radius: 20px;
+    }
+
     .footer-social-media-icon{
         width: 44px;
         height: 44px;
+    }
+
+    .secret-text{
+        font-size: 8px;
     }
 
     .main-footer{
@@ -252,6 +283,15 @@ div:hover .secret-text{
 
 @media only screen and (min-width: 576px){
 
+    .copyright{
+        font-size: 10px;
+    }
+
+    .footer-selfdescription-image{
+        width: 45px;
+        border-radius: 22.5px;
+    }
+
     .footer-social-media-icon{
         width: 48px;
         height: 48px;
@@ -259,6 +299,10 @@ div:hover .secret-text{
 
     .main-footer{
         height: 120px;
+    }
+
+    .secret-text{
+        font-size: 10px;
     }
 
     #text-1{
@@ -293,6 +337,15 @@ div:hover .secret-text{
 
 @media only screen and (min-width: 768px){
 
+    .copyright{
+        font-size: 12px;
+    }
+
+    .footer-selfdescription-image{
+        width: 50px;
+        border-radius: 25px;
+    }
+
     .footer-social-media-icon{
         width: 52px;
         height: 52px;
@@ -300,6 +353,10 @@ div:hover .secret-text{
 
     .main-footer{
         height: 150px;
+    }
+
+    .secret-text{
+        font-size: 12px;
     }
 
     #text-1{
@@ -333,6 +390,15 @@ div:hover .secret-text{
 
 @media only screen and (min-width: 992px){
 
+    .copyright{
+        font-size: 14px;
+    }
+
+    .footer-selfdescription-image{
+        width: 55px;
+        border-radius: 27.5px;
+    }
+
     .footer-social-media-icon{
         width: 56px;
         height: 56px;
@@ -340,6 +406,10 @@ div:hover .secret-text{
 
     .main-footer{
         height: 180px;
+    }
+
+    .secret-text{
+        font-size: 14px;
     }
 
     #text-1{
@@ -373,6 +443,15 @@ div:hover .secret-text{
 
 @media only screen and (min-width: 1200px){
 
+    .copyright{
+        font-size: 16px;
+    }
+
+    .footer-selfdescription-image{
+        width: 60px;
+        border-radius: 30px;
+    }
+
     .footer-social-media-icon{
         width: 60px;
         height: 60px;
@@ -380,6 +459,10 @@ div:hover .secret-text{
 
     .main-footer{
         height: 230px;
+    }
+
+    .secret-text{
+        font-size: 16px;
     }
 
     #text-1{
