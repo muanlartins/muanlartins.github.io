@@ -285,6 +285,30 @@ body{
         font-size: 22px;
     }
 
+    .piece-1{
+        width: 40px;
+    }
+    
+    .piece-2{
+        width: 40px;
+    }
+    
+    .piece-3{
+        width: 40px;
+    }
+    
+    .piece-4{
+        width: 40px;
+    }
+    
+    .piece-5{
+        width: 65px;
+    }
+    
+    .piece-6{
+        width: 65px;
+    }
+
     .social-media-icon{
         width: 22px;
     }
@@ -295,6 +319,30 @@ body{
 
     #logo{
         font-size: 24px;
+    }
+
+    .piece-1{
+        width: 50px;
+    }
+    
+    .piece-2{
+        width: 50px;
+    }
+    
+    .piece-3{
+        width: 50px;
+    }
+    
+    .piece-4{
+        width: 50px;
+    }
+    
+    .piece-5{
+        width: 80px;
+    }
+    
+    .piece-6{
+        width: 80px;
     }
 
     .social-media-icon{
@@ -338,6 +386,30 @@ body{
 
     #logo{
         font-size: 28px;
+    }
+
+    .piece-1{
+        width: 60px;
+    }
+    
+    .piece-2{
+        width: 60px;
+    }
+    
+    .piece-3{
+        width: 60px;
+    }
+    
+    .piece-4{
+        width: 60px;
+    }
+    
+    .piece-5{
+        width: 95px;
+    }
+    
+    .piece-6{
+        width: 95px;
     }
 
     .social-media-icon{
@@ -390,6 +462,30 @@ body{
 
     #logo{
         font-size: 32px;
+    }
+
+    .piece-1{
+        width: 70px;
+    }
+    
+    .piece-2{
+        width: 70px;
+    }
+    
+    .piece-3{
+        width: 70px;
+    }
+    
+    .piece-4{
+        width: 70px;
+    }
+    
+    .piece-5{
+        width: 110px;
+    }
+    
+    .piece-6{
+        width: 110px;
     }
 
     .social-media-icon{
