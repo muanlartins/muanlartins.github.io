@@ -137,7 +137,7 @@ body{
 
 #piece-1{
     position: absolute;
-    width: 30px;
+    transform: scale(2)!important;
     animation-name: piece-falling-1;
     animation-duration: 14s;
     animation-iteration-count: infinite;
@@ -147,7 +147,6 @@ body{
 
 #piece-2{
     position: absolute;
-    width: 30px;
     animation-name: piece-falling-2;
     animation-duration: 18s;
     animation-iteration-count: infinite;
@@ -156,7 +155,7 @@ body{
 
 #piece-3{
     position: absolute;
-    width: 30px;
+    filter: blur(1px);
     animation-name: piece-falling-2;
     animation-duration: 12s;
     animation-delay: -3s;
@@ -166,7 +165,6 @@ body{
 
 #piece-4{
     position: absolute;
-    width: 30px;
     animation-name: piece-falling-1;
     animation-duration: 16s;
     animation-delay: -7s;
@@ -176,7 +174,6 @@ body{
 
 #piece-5{
     position: absolute;
-    width: 50px;
     filter: blur(1px);
     animation-name: piece-falling-2;
     animation-duration: 15s;
@@ -187,7 +184,6 @@ body{
 
 #piece-6{
     position: absolute;
-    width: 50px;
     filter: blur(1px);
     animation-name: piece-falling-1;
     animation-duration: 48s;
@@ -198,7 +194,7 @@ body{
 
 #piece-7{
     position: absolute;
-    width: 30px;
+    filter: blur(1px);
     animation-name: piece-falling-2;
     animation-duration: 11s;
     animation-iteration-count: infinite;
@@ -208,7 +204,6 @@ body{
 
 #piece-8{
     position: absolute;
-    width: 30px;
     animation-name: piece-falling-1;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -218,7 +213,6 @@ body{
 
 #piece-9{
     position: absolute;
-    width: 30px;
     animation-name: piece-falling-1;
     animation-duration: 10s;
     animation-delay: -5s;
@@ -228,7 +222,6 @@ body{
 
 #piece-10{
     position: absolute;
-    width: 30px;
     animation-name: piece-falling-2;
     animation-duration: 16s;
     animation-iteration-count: infinite;
@@ -237,7 +230,6 @@ body{
 
 #piece-11{
     position: absolute;
-    width: 50px;
     filter: blur(1px);
     animation-name: piece-falling-1;
     animation-duration: 32s;
@@ -248,13 +240,16 @@ body{
 
 #piece-12{
     position: absolute;
-    width: 50px;
     filter: blur(1px);
     animation-name: piece-falling-2;
     animation-duration: 22s;
     animation-delay: -18s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+}
+
+.piece-big{
+    width: 50px;
 }
 
 @keyframes piece-falling-1{
@@ -275,8 +270,12 @@ body{
     100%{top: 80%;transform: rotate(-360deg) translateX(-10px);}
 }
 
-.piece-set-1{
+.piece-set{
     position: absolute;
+}
+
+.piece-small{
+    width: 30px;
 }
 
 .social-media-icon{
@@ -342,52 +341,12 @@ body{
         font-size: 22px;
     }
 
-    #piece-1{
-        width: 35px;
-    }
-    
-    #piece-2{
-        width: 35px;
-    }
-    
-    #piece-3{
-        width: 35px;
-    }
-    
-    #piece-4{
-        width: 35px;
-    }
-    
-    #piece-5{
-        width: 60px;
-    }
-    
-    #piece-6{
+    .piece-big{
         width: 60px;
     }
 
-    #piece-7{
+    .piece-small{
         width: 35px;
-    }
-    
-    #piece-8{
-        width: 35px;
-    }
-    
-    #piece-9{
-        width: 35px;
-    }
-    
-    #piece-10{
-        width: 35px;
-    }
-    
-    #piece-11{
-        width: 60px;
-    }
-    
-    #piece-12{
-        width: 60px;
     }
 
     .social-media-icon{
@@ -402,52 +361,12 @@ body{
         font-size: 24px;
     }
 
-    #piece-1{
-        width: 45px;
-    }
-    
-    #piece-2{
-        width: 45px;
-    }
-    
-    #piece-3{
-        width: 45px;
-    }
-    
-    #piece-4{
-        width: 45px;
-    }
-    
-    #piece-5{
-        width: 75px;
-    }
-    
-    #piece-6{
+    .piece-big{
         width: 75px;
     }
 
-    #piece-7{
+    .piece-small{
         width: 45px;
-    }
-    
-    #piece-8{
-        width: 45px;
-    }
-    
-    #piece-9{
-        width: 45px;
-    }
-    
-    #piece-10{
-        width: 45px;
-    }
-    
-    #piece-11{
-        width: 75px;
-    }
-    
-    #piece-12{
-        width: 75px;
     }
 
     .social-media-icon{
@@ -493,52 +412,12 @@ body{
         font-size: 28px;
     }
 
-    #piece-1{
-        width: 55px;
-    }
-    
-    #piece-2{
-        width: 55px;
-    }
-    
-    #piece-3{
-        width: 55px;
-    }
-    
-    #piece-4{
-        width: 55px;
-    }
-    
-    #piece-5{
-        width: 90px;
-    }
-    
-    #piece-6{
+    .piece-big{
         width: 90px;
     }
 
-    #piece-7{
+    .piece-small{
         width: 55px;
-    }
-    
-    #piece-8{
-        width: 55px;
-    }
-    
-    #piece-9{
-        width: 55px;
-    }
-    
-    #piece-10{
-        width: 55px;
-    }
-    
-    #piece-11{
-        width: 90px;
-    }
-    
-    #piece-12{
-        width: 90px;
     }
 
     .social-media-icon{
@@ -593,52 +472,12 @@ body{
         font-size: 32px;
     }
 
-    #piece-1{
-        width: 65px;
-    }
-    
-    #piece-2{
-        width: 65px;
-    }
-    
-    #piece-3{
-        width: 65px;
-    }
-    
-    #piece-4{
-        width: 65px;
-    }
-    
-    #piece-5{
-        width: 100px;
-    }
-    
-    #piece-6{
+    .piece-big{
         width: 100px;
     }
 
-    #piece-7{
+    .piece-small{
         width: 65px;
-    }
-    
-    #piece-8{
-        width: 65px;
-    }
-    
-    #piece-9{
-        width: 65px;
-    }
-    
-    #piece-10{
-        width: 65px;
-    }
-    
-    #piece-11{
-        width: 100px;
-    }
-    
-    #piece-12{
-        width: 100px;
     }
 
     .social-media-icon{
