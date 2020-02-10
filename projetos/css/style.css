@@ -179,7 +179,7 @@ body{
     width: 50px;
     filter: blur(1px);
     animation-name: piece-falling-2;
-    animation-duration: 26s;
+    animation-duration: 15s;
     animation-delay: -5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -190,7 +190,68 @@ body{
     width: 50px;
     filter: blur(1px);
     animation-name: piece-falling-1;
-    animation-duration: 40s;
+    animation-duration: 48s;
+    animation-delay: -18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-7{
+    position: absolute;
+    width: 30px;
+    animation-name: piece-falling-2;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: -4s;
+}
+
+#piece-8{
+    position: absolute;
+    width: 30px;
+    animation-name: piece-falling-1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: -7s;
+}
+
+#piece-9{
+    position: absolute;
+    width: 30px;
+    animation-name: piece-falling-1;
+    animation-duration: 10s;
+    animation-delay: -5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-10{
+    position: absolute;
+    width: 30px;
+    animation-name: piece-falling-2;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-11{
+    position: absolute;
+    width: 50px;
+    filter: blur(1px);
+    animation-name: piece-falling-1;
+    animation-duration: 32s;
+    animation-delay: -8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-12{
+    position: absolute;
+    width: 50px;
+    filter: blur(1px);
+    animation-name: piece-falling-2;
+    animation-duration: 22s;
     animation-delay: -18s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -282,27 +343,51 @@ body{
     }
 
     #piece-1{
-        width: 40px;
+        width: 35px;
     }
     
     #piece-2{
-        width: 40px;
+        width: 35px;
     }
     
     #piece-3{
-        width: 40px;
+        width: 35px;
     }
     
     #piece-4{
-        width: 40px;
+        width: 35px;
     }
     
     #piece-5{
-        width: 65px;
+        width: 60px;
     }
     
     #piece-6{
-        width: 65px;
+        width: 60px;
+    }
+
+    #piece-7{
+        width: 35px;
+    }
+    
+    #piece-8{
+        width: 35px;
+    }
+    
+    #piece-9{
+        width: 35px;
+    }
+    
+    #piece-10{
+        width: 35px;
+    }
+    
+    #piece-11{
+        width: 60px;
+    }
+    
+    #piece-12{
+        width: 60px;
     }
 
     .social-media-icon{
@@ -318,27 +403,51 @@ body{
     }
 
     #piece-1{
-        width: 50px;
+        width: 45px;
     }
     
     #piece-2{
-        width: 50px;
+        width: 45px;
     }
     
     #piece-3{
-        width: 50px;
+        width: 45px;
     }
     
     #piece-4{
-        width: 50px;
+        width: 45px;
     }
     
     #piece-5{
-        width: 80px;
+        width: 75px;
     }
     
     #piece-6{
-        width: 80px;
+        width: 75px;
+    }
+
+    #piece-7{
+        width: 45px;
+    }
+    
+    #piece-8{
+        width: 45px;
+    }
+    
+    #piece-9{
+        width: 45px;
+    }
+    
+    #piece-10{
+        width: 45px;
+    }
+    
+    #piece-11{
+        width: 75px;
+    }
+    
+    #piece-12{
+        width: 75px;
     }
 
     .social-media-icon{
@@ -385,27 +494,51 @@ body{
     }
 
     #piece-1{
-        width: 60px;
+        width: 55px;
     }
     
     #piece-2{
-        width: 60px;
+        width: 55px;
     }
     
     #piece-3{
-        width: 60px;
+        width: 55px;
     }
     
     #piece-4{
-        width: 60px;
+        width: 55px;
     }
     
     #piece-5{
-        width: 95px;
+        width: 90px;
     }
     
     #piece-6{
-        width: 95px;
+        width: 90px;
+    }
+
+    #piece-7{
+        width: 55px;
+    }
+    
+    #piece-8{
+        width: 55px;
+    }
+    
+    #piece-9{
+        width: 55px;
+    }
+    
+    #piece-10{
+        width: 55px;
+    }
+    
+    #piece-11{
+        width: 90px;
+    }
+    
+    #piece-12{
+        width: 90px;
     }
 
     .social-media-icon{
@@ -461,27 +594,51 @@ body{
     }
 
     #piece-1{
-        width: 70px;
+        width: 65px;
     }
     
     #piece-2{
-        width: 70px;
+        width: 65px;
     }
     
     #piece-3{
-        width: 70px;
+        width: 65px;
     }
     
     #piece-4{
-        width: 70px;
+        width: 65px;
     }
     
     #piece-5{
-        width: 110px;
+        width: 100px;
     }
     
     #piece-6{
-        width: 110px;
+        width: 100px;
+    }
+
+    #piece-7{
+        width: 65px;
+    }
+    
+    #piece-8{
+        width: 65px;
+    }
+    
+    #piece-9{
+        width: 65px;
+    }
+    
+    #piece-10{
+        width: 65px;
+    }
+    
+    #piece-11{
+        width: 100px;
+    }
+    
+    #piece-12{
+        width: 100px;
     }
 
     .social-media-icon{
