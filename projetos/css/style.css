@@ -11,10 +11,6 @@ body{
     scroll-behavior: smooth;
 }
 
-.carousel-image{
-    
-}
-
 .header-text{
     color: black;
     transition: 0.25s;
@@ -139,7 +135,7 @@ body{
     transition-duration: 0.25s;
 }
 
-.piece-1{
+#piece-1{
     position: absolute;
     width: 30px;
     animation-name: piece-falling-1;
@@ -149,7 +145,7 @@ body{
     animation-delay: -2s;
 }
 
-.piece-2{
+#piece-2{
     position: absolute;
     width: 30px;
     animation-name: piece-falling-2;
@@ -158,7 +154,7 @@ body{
     animation-timing-function: linear;
 }
 
-.piece-3{
+#piece-3{
     position: absolute;
     width: 30px;
     animation-name: piece-falling-2;
@@ -168,7 +164,7 @@ body{
     animation-timing-function: linear;
 }
 
-.piece-4{
+#piece-4{
     position: absolute;
     width: 30px;
     animation-name: piece-falling-1;
@@ -178,7 +174,7 @@ body{
     animation-timing-function: linear;
 }
 
-.piece-5{
+#piece-5{
     position: absolute;
     width: 50px;
     filter: blur(1px);
@@ -189,7 +185,7 @@ body{
     animation-timing-function: linear;
 }
 
-.piece-6{
+#piece-6{
     position: absolute;
     width: 50px;
     filter: blur(1px);
@@ -285,27 +281,27 @@ body{
         font-size: 22px;
     }
 
-    .piece-1{
+    #piece-1{
         width: 40px;
     }
     
-    .piece-2{
+    #piece-2{
         width: 40px;
     }
     
-    .piece-3{
+    #piece-3{
         width: 40px;
     }
     
-    .piece-4{
+    #piece-4{
         width: 40px;
     }
     
-    .piece-5{
+    #piece-5{
         width: 65px;
     }
     
-    .piece-6{
+    #piece-6{
         width: 65px;
     }
 
@@ -321,27 +317,27 @@ body{
         font-size: 24px;
     }
 
-    .piece-1{
+    #piece-1{
         width: 50px;
     }
     
-    .piece-2{
+    #piece-2{
         width: 50px;
     }
     
-    .piece-3{
+    #piece-3{
         width: 50px;
     }
     
-    .piece-4{
+    #piece-4{
         width: 50px;
     }
     
-    .piece-5{
+    #piece-5{
         width: 80px;
     }
     
-    .piece-6{
+    #piece-6{
         width: 80px;
     }
 
@@ -388,27 +384,27 @@ body{
         font-size: 28px;
     }
 
-    .piece-1{
+    #piece-1{
         width: 60px;
     }
     
-    .piece-2{
+    #piece-2{
         width: 60px;
     }
     
-    .piece-3{
+    #piece-3{
         width: 60px;
     }
     
-    .piece-4{
+    #piece-4{
         width: 60px;
     }
     
-    .piece-5{
+    #piece-5{
         width: 95px;
     }
     
-    .piece-6{
+    #piece-6{
         width: 95px;
     }
 
@@ -464,27 +460,27 @@ body{
         font-size: 32px;
     }
 
-    .piece-1{
+    #piece-1{
         width: 70px;
     }
     
-    .piece-2{
+    #piece-2{
         width: 70px;
     }
     
-    .piece-3{
+    #piece-3{
         width: 70px;
     }
     
-    .piece-4{
+    #piece-4{
         width: 70px;
     }
     
-    .piece-5{
+    #piece-5{
         width: 110px;
     }
     
-    .piece-6{
+    #piece-6{
         width: 110px;
     }
 
