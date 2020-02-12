@@ -137,7 +137,6 @@ body{
 
 #piece-1{
     position: absolute;
-    transform: scale(2)!important;
     animation-name: piece-falling-1;
     animation-duration: 14s;
     animation-iteration-count: infinite;
