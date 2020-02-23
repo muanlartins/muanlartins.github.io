@@ -11,6 +11,14 @@ body{
     scroll-behavior: smooth;
 }
 
+.header-animation-container{
+    z-index: 2;
+}
+
+.header-button{
+    z-index: 2;
+}
+
 .header-text{
     color: black;
     transition: 0.25s;
