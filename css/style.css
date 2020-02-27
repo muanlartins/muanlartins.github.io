@@ -8,6 +8,30 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.copyright{
+    color: rgba(211, 211, 211, 0.3);
+    font-size: 4px;
+}
+
+div .secret-text{
+    color: rgba(211, 211, 211, 0.3);
+    transform-origin: center;
+    transition: 0.5s;
+    transform: scale(0);
+}
+
+div:hover .secret-text{
+    color: rgba(211, 211, 211, 0.1);
+    transform-origin: center;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.footer-selfdescription-image{
+    width: 30px;
+    border-radius: 15px;
+}
+
 .footer-social-media-icon{
     position: relative;
     width: 40px;
@@ -27,12 +51,12 @@ body{
     background-color: white;
     top: 0;
     left: 0;
-    transform-origin: left;
+    transform-origin: right;
 }
 
 .footer-social-media-icon:hover span:nth-child(1){
     transform: scaleX(0);
-    transform-origin: right;
+    transform-origin: left;
     transition: transform 0.5s;
 }
 
@@ -42,12 +66,12 @@ body{
     background-color: white;
     bottom: 0;
     right: 0;
-    transform-origin: right;
+    transform-origin: left;
 }
 
 .footer-social-media-icon:hover span:nth-child(2){
     transform: scaleX(0);
-    transform-origin: left;
+    transform-origin: right;
     transition: transform 0.5s;
 }
 
@@ -58,10 +82,11 @@ body{
     top: 0;
     left: 0;
     transform-origin: bottom;
+    transform: scale(0);
 }
 
 .footer-social-media-icon:hover span:nth-child(3){
-    transform: scaleY(0);
+    transform: scaleY(1);
     transform-origin: top;
     transition: transform 0.5s;
 }
@@ -73,10 +98,11 @@ body{
     bottom: 0;
     right: 0;
     transform-origin: top;
+    transform: scale(0);
 }
 
 .footer-social-media-icon:hover span:nth-child(4){
-    transform: scaleY(0);
+    transform: scaleY(1);
     transform-origin: bottom;
     transition: transform 0.5s;
 }
@@ -92,7 +118,7 @@ body{
 }
 
 .main-content{
-    background-image: url("background-4.jpg");
+    background-image: url("../img/background-4.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -122,6 +148,10 @@ body{
     transition-property: all;
 }
 
+.secret-text{
+    font-size: 4px;
+}
+
 #text-1{
     font-size: 36px;
 }
@@ -145,6 +175,15 @@ body{
 
 @media only screen and (min-width: 380px){
 
+    .copyright{
+        font-size: 6px;
+    }
+
+    .footer-selfdescription-image{
+        width: 35px;
+        border-radius: 17.5px;
+    }
+
     .footer-social-media-icon{
         width: 42px;
         height: 42px;
@@ -152,6 +191,10 @@ body{
 
     .main-footer{
         height: 90px;
+    }
+
+    .secret-text{
+        font-size: 6px;
     }
 
     #text-1{
@@ -186,9 +229,22 @@ body{
 
 @media only screen and (min-width: 490px){
 
+    .copyright{
+        font-size: 8px;
+    }
+
+    .footer-selfdescription-image{
+        width: 40px;
+        border-radius: 20px;
+    }
+
     .footer-social-media-icon{
         width: 44px;
         height: 44px;
+    }
+
+    .secret-text{
+        font-size: 8px;
     }
 
     .main-footer{
@@ -227,6 +283,15 @@ body{
 
 @media only screen and (min-width: 576px){
 
+    .copyright{
+        font-size: 10px;
+    }
+
+    .footer-selfdescription-image{
+        width: 45px;
+        border-radius: 22.5px;
+    }
+
     .footer-social-media-icon{
         width: 48px;
         height: 48px;
@@ -234,6 +299,10 @@ body{
 
     .main-footer{
         height: 120px;
+    }
+
+    .secret-text{
+        font-size: 10px;
     }
 
     #text-1{
@@ -268,6 +337,15 @@ body{
 
 @media only screen and (min-width: 768px){
 
+    .copyright{
+        font-size: 12px;
+    }
+
+    .footer-selfdescription-image{
+        width: 50px;
+        border-radius: 25px;
+    }
+
     .footer-social-media-icon{
         width: 52px;
         height: 52px;
@@ -275,6 +353,10 @@ body{
 
     .main-footer{
         height: 150px;
+    }
+
+    .secret-text{
+        font-size: 12px;
     }
 
     #text-1{
@@ -308,6 +390,15 @@ body{
 
 @media only screen and (min-width: 992px){
 
+    .copyright{
+        font-size: 14px;
+    }
+
+    .footer-selfdescription-image{
+        width: 55px;
+        border-radius: 27.5px;
+    }
+
     .footer-social-media-icon{
         width: 56px;
         height: 56px;
@@ -315,6 +406,10 @@ body{
 
     .main-footer{
         height: 180px;
+    }
+
+    .secret-text{
+        font-size: 14px;
     }
 
     #text-1{
@@ -348,6 +443,15 @@ body{
 
 @media only screen and (min-width: 1200px){
 
+    .copyright{
+        font-size: 16px;
+    }
+
+    .footer-selfdescription-image{
+        width: 60px;
+        border-radius: 30px;
+    }
+
     .footer-social-media-icon{
         width: 60px;
         height: 60px;
@@ -355,6 +459,10 @@ body{
 
     .main-footer{
         height: 230px;
+    }
+
+    .secret-text{
+        font-size: 16px;
     }
 
     #text-1{

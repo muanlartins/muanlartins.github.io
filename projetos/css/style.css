@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth!important;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.header-animation-container{
+    z-index: 2;
+}
+
+.header-button{
+    z-index: 2;
+}
+
+.header-text{
+    color: black;
+    transition: 0.25s;
+    scroll-behavior: smooth;
+}
+
+#logo{
+    font-size : 16px;
+    transition: 0.25s;
+}
+
+.header-content{
+    background-image: radial-gradient(rgb(175, 175, 175), rgb(224, 224, 224));
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#letter-1{
+    font-size: 24px;
+    animation-name: text-appear-1;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#letter-2{
+    font-size: 24px;
+    animation-name: text-appear-2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#letter-3{
+    font-size: 24px;
+    animation-name: text-appear-3;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#letter-4{
+    font-size: 24px;
+    animation-name: text-appear-4;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#letter-5{
+    font-size: 24px;
+    animation-name: text-appear-5;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#letter-6{
+    font-size: 24px;
+    animation-name: text-appear-6;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#letter-7{
+    font-size: 24px;
+    animation-name: text-appear-7;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#letter-8{
+    font-size: 24px;
+    animation-name: text-appear-8;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#main-content{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.navbar-background{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#navbar-main{
+    transition-property: background-color;
+    transition-duration: 0.25s;
+}
+
+#piece-1{
+    position: absolute;
+    animation-name: piece-falling-1;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+}
+
+#piece-2{
+    position: absolute;
+    animation-name: piece-falling-2;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-3{
+    position: absolute;
+    filter: blur(1px);
+    animation-name: piece-falling-2;
+    animation-duration: 12s;
+    animation-delay: -3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-4{
+    position: absolute;
+    animation-name: piece-falling-1;
+    animation-duration: 16s;
+    animation-delay: -7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-5{
+    position: absolute;
+    filter: blur(1px);
+    animation-name: piece-falling-2;
+    animation-duration: 15s;
+    animation-delay: -5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-6{
+    position: absolute;
+    filter: blur(1px);
+    animation-name: piece-falling-1;
+    animation-duration: 48s;
+    animation-delay: -18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-7{
+    position: absolute;
+    filter: blur(1px);
+    animation-name: piece-falling-2;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: -4s;
+}
+
+#piece-8{
+    position: absolute;
+    animation-name: piece-falling-1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: -7s;
+}
+
+#piece-9{
+    position: absolute;
+    animation-name: piece-falling-1;
+    animation-duration: 10s;
+    animation-delay: -5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-10{
+    position: absolute;
+    animation-name: piece-falling-2;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-11{
+    position: absolute;
+    filter: blur(1px);
+    animation-name: piece-falling-1;
+    animation-duration: 32s;
+    animation-delay: -8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#piece-12{
+    position: absolute;
+    filter: blur(1px);
+    animation-name: piece-falling-2;
+    animation-duration: 22s;
+    animation-delay: -18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.piece-big{
+    width: 50px;
+}
+
+@keyframes piece-falling-1{
+    0%{top: 0; opacity: 0; transform: rotate(0deg) translateX(0px);}
+    10%{opacity: 1;}
+    25%{transform: rotate(90deg) translateX(10px);}
+    50%{transform: rotate(180deg) translateX(-10px);}
+    75%{transform: rotate(270deg) translateX(10px);}
+    100%{top: 80%;transform: rotate(360deg) translateX(-10px);}
+}
+
+@keyframes piece-falling-2{
+    0%{top: 0; opacity: 0; transform: rotate(0deg) translateX(0px);}
+    10%{opacity: 1;}
+    25%{transform: rotate(-90deg) translateX(10px);}
+    50%{transform: rotate(-180deg) translateX(-10px);}
+    75%{transform: rotate(-270deg) translateX(10px);}
+    100%{top: 80%;transform: rotate(-360deg) translateX(-10px);}
+}
+
+.piece-set{
+    position: absolute;
+}
+
+.piece-small{
+    width: 30px;
+}
+
+.social-media-icon{
+    width: 16px;
+    transition-duration: 0.25s;
+    transition-property: all;
+}
+
+@keyframes text-appear-1{
+    from{opacity: 0; transform: translateX(0);}
+    to{opacity: 1; transform: translateX(-87.5px);}
+}
+
+@keyframes text-appear-2{
+    from{opacity: 0; transform: translateX(0);}
+    to{opacity: 1; transform: translateX(-62.5px);}
+}
+
+@keyframes text-appear-3{
+    from{opacity: 0; transform: translateX(0);}
+    to{opacity: 1; transform: translateX(-37.5px);}
+}
+
+@keyframes text-appear-4{
+    from{opacity: 0; transform: translateX(0);}
+    to{opacity: 1; transform: translateX(-12.5px);}
+}
+
+@keyframes text-appear-5{
+    from{opacity: 0; transform: translateX(0);}
+    to{opacity: 1; transform: translateX(+12.5px);}
+}
+
+@keyframes text-appear-6{
+    from{opacity: 0; transform: translateX(0);}
+    to{opacity: 1; transform: translateX(+37.5px);}
+}
+
+@keyframes text-appear-7{
+    from{opacity: 0; transform: translateX(0);}
+    to{opacity: 1; transform: translateX(+62.5px);}
+}
+
+@keyframes text-appear-8{
+    from{opacity: 0; transform: translateX(0);}
+    to{opacity: 1; transform: translateX(+87.5px);}
+}
+
+@media only screen and (min-width: 380px){
+
+    #logo{
+        font-size: 20px;
+    }
+
+    .social-media-icon{
+        width: 20px;
+    }
+}
+
+@media only screen and (min-width: 576px){
+
+    #logo{
+        font-size: 22px;
+    }
+
+    .piece-big{
+        width: 60px;
+    }
+
+    .piece-small{
+        width: 35px;
+    }
+
+    .social-media-icon{
+        width: 22px;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+
+    #logo{
+        font-size: 24px;
+    }
+
+    .piece-big{
+        width: 75px;
+    }
+
+    .piece-small{
+        width: 45px;
+    }
+
+    .social-media-icon{
+        width: 24px;
+    }
+
+
+@media only screen and (min-width: 992px){
+
+    #letter-1{
+        font-size: 48px;
+    }
+
+    #letter-2{
+        font-size: 48px;
+    }
+
+    #letter-3{
+        font-size: 48px;
+    }
+
+    #letter-4{
+        font-size: 48px;
+    }
+
+    #letter-5{
+        font-size: 48px;
+    }
+
+    #letter-6{
+        font-size: 48px;
+    }
+
+    #letter-7{
+        font-size: 48px;
+    }
+
+    #letter-8{
+        font-size: 48px;
+    }
+
+    #logo{
+        font-size: 28px;
+    }
+
+    .piece-big{
+        width: 90px;
+    }
+
+    .piece-small{
+        width: 55px;
+    }
+
+    .social-media-icon{
+        width: 28px;
+    }
+
+    @keyframes text-appear-1{
+        from{opacity: 0; transform: translateX(0);}
+        to{opacity: 1; transform: translateX(-175px);}
+    }
+    
+    @keyframes text-appear-2{
+        from{opacity: 0; transform: translateX(0);}
+        to{opacity: 1; transform: translateX(-125px);}
+    }
+    
+    @keyframes text-appear-3{
+        from{opacity: 0; transform: translateX(0);}
+        to{opacity: 1; transform: translateX(-75px);}
+    }
+    
+    @keyframes text-appear-4{
+        from{opacity: 0; transform: translateX(0);}
+        to{opacity: 1; transform: translateX(-25px);}
+    }
+    
+    @keyframes text-appear-5{
+        from{opacity: 0; transform: translateX(0);}
+        to{opacity: 1; transform: translateX(+25px);}
+    }
+    
+    @keyframes text-appear-6{
+        from{opacity: 0; transform: translateX(0);}
+        to{opacity: 1; transform: translateX(+75px);}
+    }
+    
+    @keyframes text-appear-7{
+        from{opacity: 0; transform: translateX(0);}
+        to{opacity: 1; transform: translateX(+125px);}
+    }
+    
+    @keyframes text-appear-8{
+        from{opacity: 0; transform: translateX(0);}
+        to{opacity: 1; transform: translateX(+175px);}
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    #logo{
+        font-size: 32px;
+    }
+
+    .piece-big{
+        width: 100px;
+    }
+
+    .piece-small{
+        width: 65px;
+    }
+
+    .social-media-icon{
+        width: 32px;
+    }
+
+}

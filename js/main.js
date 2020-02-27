@@ -1,5 +1,3 @@
-window.onload = function() {resizeFunction()};
-window.onresize = function() {resizeFunction()};
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction(){
